@@ -161,6 +161,7 @@ public class MobileApps {
          driver.findElement(By.xpath("//android.widget.TextView[contains(@text,  'Tamil Nadu')]")).click();
          Thread.sleep(1000);
          driver.findElement(By.xpath("//android.widget.Button[@text='Save Address and Continue']")).click();
+         System.out.println("Testing");
          
          Thread.sleep(3000);
    //      driver.findElement(By.id("com.meesho.supply:id/multi_cta_info_primary_cta")).click();
